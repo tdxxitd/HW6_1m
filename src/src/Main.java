@@ -6,7 +6,6 @@ public class Main {
 
         Boss boss = new Boss(100, 200, AK47);
         System.out.println("Boss Info: \n" + boss.printInfo() );
-
         Sceleton sceleton1 = new Sceleton(50,100, BOW, 20);
         Sceleton sceleton2 =  new Sceleton(20, 70, DAGGER, 30);
         System.out.println("Skeleton 1 info: \n" + sceleton1.printInfo());
